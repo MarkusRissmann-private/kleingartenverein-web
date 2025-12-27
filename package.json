@@ -1,15 +1,18 @@
 {
   "name": "kleingartenverein-web",
   "version": "1.0.0",
-  "description": "Moderne React TypeScript Website für Kleingartenverein mit AWS Serverless Backend",
+  "description": "Moderne React TypeScript Website für Kleingartenverein mit AWS Serverless Backend und RTK Query",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
     "@types/node": "^20.10.0",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
+    "@types/react-redux": "^7.1.33",
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
     "react-scripts": "5.0.1",
     "typescript": "^5.3.3",
     "web-vitals": "^3.5.0"
