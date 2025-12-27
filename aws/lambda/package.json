@@ -1,0 +1,19 @@
+{
+  "name": "kleingartenverein-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda Functions für Kleingartenverein API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "package": "npm run build && zip -r lambda.zip dist/ node_modules/"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.478.0",
+    "@aws-sdk/lib-dynamodb": "^3.478.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.131",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}
